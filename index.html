@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CV - Amanda Pelaez</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#ffb6d5,#ffd6ec);
+    color:#444;
+}
+
+.container{
+    max-width:800px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+    color:#ff4da6;
+}
+
+h2{
+    color:#ff66b2;
+}
+
+.heart{
+    color:#ff4da6;
+    font-size:20px;
+}
+
+.section{
+    margin-top:20px;
+}
+
+.contact{
+    background:#ffe6f2;
+    padding:15px;
+    border-radius:10px;
+}
+
+button{
+    background:#ff66b2;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#ff3385;
+}
+
+.footer{
+    text-align:center;
+    margin-top:20px;
+    color:#ff66b2;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>💗 Amanda Pelaez 💗</h1>
+
+<div class="section">
+<h2>Información Personal</h2>
+<p><span class="heart">❤</span> Edad: 17 años</p>
+<p><span class="heart">❤</span> Fecha de nacimiento: 24/10/2008</p>
+<p><span class="heart">❤</span> Personalidad: Inteligente, alegre y creativa</p>
+<p><span class="heart">❤</span> Pasión: El arte y la creatividad</p>
+</div>
+
+<div class="section">
+<h2>Experiencias y Cursos</h2>
+<ul>
+<li>Curso básico de arte y creatividad</li>
+<li>Participación en talleres escolares</li>
+<li>Aprendizaje en herramientas digitales</li>
+</ul>
+</div>
+
+<div class="section contact">
+<h2>Contacto</h2>
+<p>Email: amanda@email.com</p>
+<p>Teléfono: +1 000 000 0000</p>
+
+<button onclick="mostrarMensaje()">Enviar saludo 💌</button>
+<p id="mensaje"></p>
+</div>
+
+<div class="footer">
+<p>Hecho con ❤</p>
+</div>
+
+</div>
+
+<script>
+function mostrarMensaje(){
+    document.getElementById("mensaje").innerHTML =
+    "💖 ¡Gracias por visitar mi CV!";
+}
+</script>
+
+</body>
+</html>
